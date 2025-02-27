@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Limits - Ropa Deportiva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: #ff0000;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 50px;
+            background: url('https://source.unsplash.com/1600x900/?gym,fitness') no-repeat center center;
+            background-size: cover;
+        }
+        .hero h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px;
+        }
+        .product {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+        }
+        footer {
+            padding: 20px;
+            background: #222;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>No Limits - Ropa Deportiva</header>
+    <div class="hero">
+        <h1>ROMPE TUS LÍMITES</h1>
+        <p>Ropa deportiva de alto rendimiento para quienes nunca se rinden.</p>
+        <a href="#productos" class="button">Explorar Colección</a>
+    </div>
+    <div id="productos" class="products">
+        <div class="product">
+            <img src="https://source.unsplash.com/250x250/?sportswear" alt="Producto">
+            <h3>Playera Performance</h3>
+            <p>$29.99</p>
+            <a href="#" class="button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://source.unsplash.com/250x250/?fitness" alt="Producto">
+            <h3>Leggings Pro</h3>
+            <p>$39.99</p>
+            <a href="#" class="button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://source.unsplash.com/250x250/?gymclothing" alt="Producto">
+            <h3>Sudadera No Limits</h3>
+            <p>$49.99</p>
+            <a href="#" class="button">Comprar</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 No Limits - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html> 
